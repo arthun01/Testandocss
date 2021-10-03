@@ -1,0 +1,119 @@
+.jooj{
+    width: 7.6vw;
+    height: 4.6vw;
+    margin-right: 8px;
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba(123, 31, 135, 0.37);
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: white;
+    transition: .4s;
+
+    font-size: 100%;
+    min-width: 30%;
+    min-height: 30px;
+
+
+    text-transform: uppercase;
+}
+
+.jooj:hover{
+    cursor: pointer;
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    transform: scale(1.1);
+    transform-style: preserve-3d;
+    -webkit-transform: rotateX(45deg) rotateZ(-10deg);
+}
+
+
+
+.jooj2{
+    width: 7.6vw;
+    height: 4.6vw;
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba(123, 31, 135, 0.37);
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: white;
+    transition: .4s;
+
+    font-size: 100%;
+    min-width: 30%;
+    min-height: 30px;
+    text-transform: uppercase;
+}
+
+
+
+.jooj2:hover{
+    cursor: pointer;
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    transform: scale(1.1);
+    transform-style: preserve-3d;
+    -webkit-transform: rotateX(-45deg) rotateZ(10deg);
+}
+
+
+
+
+
+
+body{
+    background: linear-gradient(-90deg, rgb(117, 0, 108) 0%, rgb(212, 121, 190) 100%);*/
+    background-image: url("https://img.elo7.com.br/product/original/395F09C/kit-painel-de-festa-tapete-de-festa-galaxia-papel-de-parede-infantil.jpg");
+    background-size: 160%;
+    background-position-x: -120px;
+}
+
+.agora {
+    margin: 0 auto;
+    margin-top: 20vh;
+
+    min-width: 20vw;
+    max-width: 60vw;
+
+    min-height: 26vw;
+    max-height: 60vw;
+
+    border: 2px solid white;
+    border-radius: 20px 20px 20px 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shape{
+
+    width: 12vw;
+    height: 12vw;
+
+    background: linear-gradient(360deg, rgba(52,0,82,1) 0%, rgba(226,0,255,1) 100%);
+    border-radius: 100%;
+    position: absolute;
+    transform: translateX(-200px) translateY(-30px);
+
+    box-shadow: 0px 10px 20px rgba(52,0,82,1);
+}
+
+.shape2{
+    width: 12vw;
+    height: 12vw;
+    background: linear-gradient(360deg, rgba(52,0,82,1) 0%, rgba(226,0,255,1) 100%);
+    border-radius: 100%;
+    position:fixed;
+    transform: translateX(200px) translateY(40px);
+
+    box-shadow: 0px 10px 20px rgba(52,0,82,1);
+}
+
+a{
+    text-decoration: none;
+    color: white
+}
